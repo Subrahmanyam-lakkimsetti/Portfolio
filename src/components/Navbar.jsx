@@ -2,7 +2,7 @@ import React from 'react';
 
 const Navbar = () => {
   return (
-    <nav className="fixed top-0 left-0 w-full bg-black/40 backdrop-blur-md z-50 px-6 py-4 flex items-center justify-between">
+    <nav className="fixed top-0 left-0 w-full bg-black/40 backdrop-blur-md z-50 px-6 py-4 flex items-center justify-evenly">
       {/* Left: Logo/Name */}
       <div className="text-xl md:text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-cyan-400">
         Subrahmanyam
@@ -32,6 +32,11 @@ const Navbar = () => {
             className="hover:text-purple-400 transition-all"
           >
             Certifications
+          </a>
+        </li>
+        <li>
+          <a href="#education" className="hover:text-purple-400 transition-all">
+            Education
           </a>
         </li>
         <li>

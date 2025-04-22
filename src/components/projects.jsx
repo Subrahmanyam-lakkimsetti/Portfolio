@@ -6,7 +6,8 @@ const projects = [
   {
     title: 'CineRave',
     image: '/Cinerave1.png',
-    description: 'Movie review platform with user ratings and comments.',
+    description:
+      'CineRave is a dynamic movie review platform built with the MERN stack, where users can explore movie details powered by a custom API. Users can rate and comment on movies directly on their individual pages. The app offers an engaging and interactive experience for cinema lovers. Designed for performance and user-friendliness, CineRave blends backend power with sleek frontend design.',
     tech: ['React', 'Node.js', 'Express', 'MongoDB'],
     github: 'https://github.com/Subrahmanyam-lakkimsetti/CIneRave',
     live: 'https://c-ine-rave-subrahmanyam-lakkimsettis-projects.vercel.app/',
@@ -15,7 +16,7 @@ const projects = [
     title: 'Food Bridge',
     image: '/food-app.png',
     description:
-      'Connects donors with NGOs to distribute excess food efficiently.',
+      'FoodBridge is a food donation platform connecting supermarkets and restaurants with NGOs to reduce food waste and help communities in need. Built with a focus on social impact, the website enables donors to list surplus food and allows NGOs to request and receive it efficiently. FoodBridge simplifies the donation process while promoting sustainability and compassion.',
     tech: ['React', 'Node.js', 'Express', 'MongoDB'],
     github: 'https://github.com/Subrahmanyam-lakkimsetti/FOOD_DONATION',
     live: 'https://food-donation-one.vercel.app/',
@@ -24,7 +25,7 @@ const projects = [
     title: 'CaseEase Mobile App',
     image: '/case-main.jpg',
     description:
-      'A mobile app for managing legal cases between clients and lawyers.',
+      'CaseEase is a Kotlin-based legal management app designed for seamless interaction between clients and lawyers. It allows lawyers to assign and manage cases with detailed information, while clients can track their case status and connect with available legal professionals. With Firebase as the backend, CaseEase ensures real-time data sync and secure access for both user roles. The app blends modern Android features for an intuitive and professional user experience.',
     tech: ['Kotlin', 'Firebase'],
     github: 'https://github.com/your/caseease',
     live: 'https://caseease.live',
@@ -33,8 +34,8 @@ const projects = [
     title: 'GrowPath',
     image: '/club.png', // Add the image URL for Entrepreneur Club
     description:
-      'A platform for entrepreneurs to connect, share ideas, and collaborate.',
-    tech: ['Laravel', 'MySQL', 'PHP'],
+      'Entrepreneur Club is a Laravel-based web platform designed to foster innovation and collaboration among student entrepreneurs. It features user registration, event management, startup showcases, and mentorship connections to support budding innovators. The system promotes networking, knowledge sharing, and visibility for student-led ventures. Built with clean architecture, it offers a secure and scalable experience for club members.',
+    tech: ['PHP', 'Laravel', 'MySQL'],
     github: 'https://github.com/Subrahmanyam-lakkimsetti/GrowPath',
     live: 'https://entrepreneurclub.live',
   },

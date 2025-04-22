@@ -5,7 +5,8 @@ const certificates = [
   {
     title: 'Cloud Computing',
     image: '/nptel.jpg',
-    description: 'Achieved certification in Cloud Computing By NPTEL.',
+    description:
+      'Completed Cloud Computing certification from NPTEL, covering core concepts like virtualization, cloud models (IaaS, PaaS, SaaS), and cloud security. Gained practical understanding of cloud architecture and deployment strategies.',
     issuingOrganization: 'NPTEL',
     date: '2024',
     link: 'https://www.aws.training/Certification',
@@ -14,7 +15,8 @@ const certificates = [
   {
     title: 'Mastering Data Structures & Algorithms using C and C++',
     image: '/udemy.png', // Replace with actual image path
-    description: 'Completed DSA course using C and C++.',
+    description:
+      'Completed the Mastering Data Structures & Algorithms using C and C++ course on Udemy, gaining in-depth knowledge of essential DSA concepts like arrays, linked lists, trees, and graphs. ',
     issuingOrganization: 'Udemy',
     date: '2024',
     link: 'https://www.udemy.com/course/datastructurescncpp/',
@@ -23,7 +25,8 @@ const certificates = [
   {
     title: 'Server-side JavaScript With Node JS',
     image: '/coursera.png',
-    description: 'Completed backend development course using Node.js.',
+    description:
+      'Completed the Server-side JavaScript with Node.js course on Coursera, learning how to build scalable backend applications using Node.js, Express, and RESTful APIs.',
     issuingOrganization: 'Coursera',
     date: '2024',
     link: 'https://www.coursera.org/learn/server-side-nodejs',
@@ -76,7 +79,7 @@ const Certificates = () => {
               transition={{ duration: 0.6, delay: index * 0.3 }}
               className="relative group cursor-pointer"
             >
-              <div className="bg-white/10 p-6 rounded-lg shadow-xl group-hover:shadow-2xl transition-all duration-300 transform group-hover:translate-y-[-10px] h-110">
+              <div className="bg-white/10 p-6 rounded-lg shadow-xl group-hover:shadow-2xl transition-all duration-300 transform group-hover:translate-y-[-10px] h-120">
                 <img
                   src={certificate.image}
                   alt={certificate.title}

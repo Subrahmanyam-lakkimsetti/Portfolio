@@ -26,7 +26,7 @@ const Hero = () => {
       color: 'bg-blue-500',
       x: [0, -30, 0],
       y: null,
-      position: 'top-10 left-10',
+      position: 'top-18 left-10',
     },
     {
       name: 'Node.js',
@@ -158,7 +158,7 @@ const Hero = () => {
         className="w-[300px] h-[300px] md:w-[400px] md:h-[400px] rounded-full overflow-hidden border-[4px] border-purple-400 shadow-2xl z-10 transform transition-all hover:scale-110"
       >
         <img
-          src="/heroSection.jpg"
+          src="/Image1.jpg"
           alt="Subrahmanyam"
           className="w-full h-full object-cover"
         />
