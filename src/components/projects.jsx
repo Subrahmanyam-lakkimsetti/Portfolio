@@ -4,6 +4,15 @@ import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa';
 
 const projects = [
   {
+    title: 'GrowPath',
+    image: '/club.png', // Add the image URL for Entrepreneur Club
+    description:
+      'Entrepreneur Club is a Laravel-based web platform designed to foster innovation and collaboration among student entrepreneurs. It features user registration, event management, startup showcases, and mentorship connections to support budding innovators. The system promotes networking, knowledge sharing, and visibility for student-led ventures. Built with clean architecture, it offers a secure and scalable experience for club members.',
+    tech: ['PHP', 'Laravel', 'MySQL'],
+    github: 'https://github.com/Subrahmanyam-lakkimsetti/GrowPath',
+    live: 'https://entrepreneurclub.live',
+  },
+  {
     title: 'CineRave',
     image: '/Cinerave1.png',
     description:
@@ -30,15 +39,7 @@ const projects = [
     github: 'https://github.com/your/caseease',
     live: 'https://caseease.live',
   },
-  {
-    title: 'GrowPath',
-    image: '/club.png', // Add the image URL for Entrepreneur Club
-    description:
-      'Entrepreneur Club is a Laravel-based web platform designed to foster innovation and collaboration among student entrepreneurs. It features user registration, event management, startup showcases, and mentorship connections to support budding innovators. The system promotes networking, knowledge sharing, and visibility for student-led ventures. Built with clean architecture, it offers a secure and scalable experience for club members.',
-    tech: ['PHP', 'Laravel', 'MySQL'],
-    github: 'https://github.com/Subrahmanyam-lakkimsetti/GrowPath',
-    live: 'https://entrepreneurclub.live',
-  },
+
   // Add more projects...
 ];
 

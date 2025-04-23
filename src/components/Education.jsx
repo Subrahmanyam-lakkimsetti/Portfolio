@@ -20,7 +20,7 @@ const educationDetails = [
   },
   {
     title: 'ZPHS, I. Polavaram',
-    degree: 'Marticalution',
+    degree: 'Marticulation',
     period: '2019 – 2020',
     cgpa: 'Percentage: 93%',
     location: 'I. Polavaram, Andhra Pradesh',
