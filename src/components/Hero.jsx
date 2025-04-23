@@ -98,7 +98,6 @@ const Hero = () => {
               'Full Stack Developer',
               'Android Developer',
               'UI/UX Designer',
-              'MERN Stack Engineer',
             ]}
             loop={0}
             cursor

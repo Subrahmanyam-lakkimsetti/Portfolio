@@ -47,7 +47,6 @@ const Contact = () => {
         transition={{ duration: 1 }}
         className="bg-white/5 backdrop-blur-md rounded-xl p-6 md:p-12 shadow-xl flex flex-col md:flex-row gap-10"
       >
-        {/* Left Side - Contact Info */}
         <div className="md:w-1/2 space-y-6">
           <h3 className="text-3xl font-semibold text-white">
             Contact Information
@@ -60,7 +59,7 @@ const Contact = () => {
           <div className="text-white">
             <div className="flex items-center gap-3 text-lg">
               <FaEnvelope className="text-purple-400" />
-              <span>lsubrahmanyam1234@example.com</span>
+              <span>lsubrahmanyam1234@gmail.com</span>
             </div>
             <div className="flex items-center gap-3 text-lg mt-4">
               <FaMapMarkerAlt className="text-purple-400" />
