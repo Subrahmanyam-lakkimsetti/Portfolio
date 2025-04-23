@@ -115,12 +115,14 @@ const Hero = () => {
           transition={{ delay: 1.2, duration: 1, ease: 'easeOut' }}
           className="mt-4 text-lg text-gray-300"
         >
-          As a Full Stack Developer, I specialize in building seamless web
-          applications and mobile solutions. I have hands-on experience with
-          both frontend and backend technologies, including React, Node.js,
-          Express, MongoDB, and Firebase. I’m passionate about creating
-          innovative, user-friendly experiences and love working on challenging
-          projects that make a difference.
+          B.Tech Computer Science Engineering student at Lovely Professional
+          University, specializing in Full-Stack Web Development. As a Full
+          Stack Developer, I focus on building seamless web and mobile
+          applications with a strong grasp of both frontend and backend
+          technologies such as React, Node.js, Express, MongoDB, and Firebase.
+          I'm passionate about crafting innovative and user-centric digital
+          experiences, and I thrive on solving complex problems through code. My
+          goal is to work on impactful projects that create real-world value.
         </motion.p>
 
         <motion.div
